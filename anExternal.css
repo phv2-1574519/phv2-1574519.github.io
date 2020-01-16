@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+}
+
+#p1 {
+    font-family: monospace;
+}
+
+#p2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.smallimg {
+    width: 50px;
+    height: 50px;
+}
+
+.shadowbox {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 3px #444444;
+    background-color: brown;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dotted {
+    display: inline-block;
+    border-style: dotted;
+    padding: 5px;
+}
+
+.floated {
+    float: right;
+    width: 50%;
+}
+
+#roundbox {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border-radius: 20%;
+}
+
+hr {
+    margin-top: 20px;
+}
